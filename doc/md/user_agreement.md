@@ -1,4 +1,4 @@
-# 用户协议
+# 用户协议 Beta
 Fitness可通过微博web授权登录，获取微博个人信息、当前登录用户及其所关注用户的最新微博、微博评论相关信息。
 请遵循[《微博服务使用协议》](https://www.weibo.com/signup/v5/protocol).
 
