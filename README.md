@@ -1,6 +1,6 @@
 Language: [English](README-EN.md) | 中文简体
 
-## Fitness（个人项目，暂不开源）
+## Fitness（个人项目，暂未开源）
 Flutter开发的微博客户端，同时支持Android和iOS。与官方微博x9.99%相似度体验，离线模式，多语言支持，主题随心换，超乎想象的流畅度，各种惊喜的细节等待你一一发现。
 
 ### 支持功能：
@@ -80,7 +80,7 @@ enum DayFormat {
   ///日期 + HH:mm
   ///(less than 10s->just now)、x minutes、x hours、[This year:(Yesterday HH:mm/a day ago)、(two days age)、MM-dd HH:mm]、[past years: yyyy-MM-dd HH:mm]
   ///小于10s->刚刚)、x分钟、x小时、[今年: (昨天 HH:mm/1天前)、(2天前)、MM-dd HH:mm],[往年: yyyy-MM-dd HH:mm].
-  Full,
+  Full,fitness_rec_list.json
 }
 
 TimelineUtil.format(timeMillis, locale: Localizations.localeOf(context).languageCode, dayFormat: DayFormat.Common);
