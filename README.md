@@ -87,9 +87,8 @@ TimelineUtil.format(timeMillis, locale: Localizations.localeOf(context).language
 ```
 
 #### 8、版本升级功能（仅供参考） [VersionUtil](https://github.com/Sky24n/FlutterRepos)
-```yaml
-
-```
+[dio](https://pub.flutter-io.cn/packages/dio) + [install_apk_plugin](https://pub.flutter-io.cn/packages/install_apk_plugin)    
+[VersionUtil](base_library/lib/src/util/version_util.dart) + [UpgradeDialog](base_library/lib/src/ui/dialog/upgrade_dialog.dart)
 
 ### Screenshots
 
@@ -110,3 +109,4 @@ Apk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;： 微博正在审核中...
 GitHub : [Sky24n](https://github.com/Sky24n)  
 简书 &nbsp;&nbsp;&nbsp;&nbsp;: [Sky24n](https://www.jianshu.com/u/cbf2ad25d33a)  
 掘金 &nbsp;&nbsp;&nbsp;&nbsp;: [Sky24n](https://juejin.im/user/5b9e8a92e51d453df0440422)
+
