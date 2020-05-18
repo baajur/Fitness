@@ -87,9 +87,8 @@ TimelineUtil.format(timeMillis, locale: Localizations.localeOf(context).language
 ```
 
 #### 8、Version upgrade (For reference only) [VersionUtil](https://github.com/Sky24n/FlutterRepos)
-```yaml
-
-```
+[dio](https://pub.flutter-io.cn/packages/dio) + [install_apk_plugin](https://pub.flutter-io.cn/packages/install_apk_plugin)    
+[VersionUtil](base_library/lib/src/util/version_util.dart) + [UpgradeDialog](base_library/lib/src/ui/dialog/upgrade_dialog.dart)
 
 ### Screenshots
 
@@ -103,8 +102,10 @@ TimelineUtil.format(timeMillis, locale: Localizations.localeOf(context).language
 
 
 ### About App
-GitHub ： [Fitness](https://github.com/Sky24n/Fitness)  
-Apk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：  Weibo is under review.
+GitHub &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;： [Fitness](https://github.com/Sky24n/Fitness)  
+Apk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：[v0.0.1](https://github.com/Sky24n/Doc/blob/master/apks/fitness.apk) (arm64-v8a)  
+Baidu Pan ：[code ttbn](https://pan.baidu.com/s/1HgBaR68oJYe7nnOTJlSg0Q)  
+Others &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：[v0.0.1](https://github.com/Sky24n/Doc)
 
 ### About Author
 GitHub&nbsp;&nbsp;&nbsp;&nbsp;: [Sky24n](https://github.com/Sky24n)  
