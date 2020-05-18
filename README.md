@@ -98,6 +98,10 @@ TimelineUtil.format(timeMillis, locale: Localizations.localeOf(context).language
 
 ### Screenshots
 
+截图无法查看？  
+掘金地址：[Flutter 仿微博客户端](https://juejin.im/post/5ebd74b5f265da7bbd2f9aa6)  
+简书地址：[Flutter 仿微博客户端](https://www.jianshu.com/p/0f761fe6ad66)
+
 |首页|探索|我的|
 |:---:|:---:|:---:|
 |<img src="screenshots/home.png" width="220" height="465"/>|<img src="screenshots/discover.png" width="220" height="465"/>|<img src="screenshots/me.png" width="220" height="465"/>|
