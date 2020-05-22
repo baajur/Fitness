@@ -114,7 +114,13 @@ TimelineUtil.format(timeMillis, locale: Localizations.localeOf(context).language
 GitHub &nbsp;&nbsp;： [Fitness](https://github.com/Sky24n/Fitness)  
 Apk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：[v0.0.1](https://github.com/Sky24n/Doc/blob/master/apks/fitness.apk) (arm64-v8a)  
 百度云盘：[提取码 ttbn](https://pan.baidu.com/s/1HgBaR68oJYe7nnOTJlSg0Q)  
-其他方式：[v0.0.1](https://github.com/Sky24n/Doc) 
+其他方式：[v0.0.1](https://github.com/Sky24n/Doc)  
+腾讯微云：[点击下载](https://share.weiyun.com/5T2hhs8c)  
+请使用微信或QQ浏览器扫码下载！  
+  
+![](https://upload-images.jianshu.io/upload_images/13222938-0bcbf2ba5a046d25.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+
+测试帐号：有10个测试帐号供大家体验，有需要的请微博[私信](https://weibo.com/u/3743796227)作者，并附带个人Github。  
 
 ### 关于作者
 GitHub : [Sky24n](https://github.com/Sky24n)  
@@ -125,7 +131,7 @@ GitHub : [Sky24n](https://github.com/Sky24n)
 大家在使用中有任何问题，bug或者有需要改进但地方，可以提交[issues](https://github.com/Sky24n/Fitness/issues)反馈。  
 当然也可以通过微博[私信](https://weibo.com/u/3743796227)反馈。
 
-### 常见问题
+### 常见问题 - [更多](docs/md/common_problem.md)
 #### 1.微博授权过程中可能发生闪退！
     已知问题！重新点授权即可。（设备：乐视1s）
 #### 2.如何退出微博登录？
