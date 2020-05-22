@@ -118,7 +118,7 @@ Apk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：[v0.0.1](https://github.com/Sky
 腾讯微云：[点击下载](https://share.weiyun.com/5T2hhs8c)  
 请使用微信或QQ浏览器扫码下载！  
   
-![](https://upload-images.jianshu.io/upload_images/13222938-0bcbf2ba5a046d25.png?imageMogr2/auto-orient/strip%7CimageView2/2/w/1240)  
+![](https://upload-images.jianshu.io/upload_images/13222938-0bcbf2ba5a046d25.png)
 
 测试帐号：有10个测试帐号供大家体验，有需要的请微博[私信](https://weibo.com/u/3743796227)作者，并附带个人Github。  
 
