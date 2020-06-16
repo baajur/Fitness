@@ -19,11 +19,39 @@ ps：作者也不清楚是否能通过审核，何时通过审核，但大家还
 
 ### 分享内容
 
-##### 1、九宫格图片控件（源码整理中，稍等···）
+#### 1、九宫格图片控件 [NineGridView](https://juejin.im/post/5ee825ab5188251f3f07af75)
 类似微博动态，微信朋友圈，微信群组，钉钉群组，支持单张大图预览。
+```yaml
+NineGridView(
+  margin: EdgeInsets.all(12),
+  padding: EdgeInsets.all(5),
+  space: 5,
+  type: NineGridType.weChatGp,
+  itemCount: itemCount,
+  itemBuilder: (BuildContext context, int index) {},
+);
+```
 
-#### 2、拖拽九宫格图片控件（源码整理中，稍等···）
+#### 2、拖拽九宫格图片控件 [DragSortView](https://juejin.im/post/5ee825ab5188251f3f07af75)
 类似微博/微信发布动态九宫格，支持按压放大效果，拖拽排序，拖拽到指定位置删除。
+```yaml
+DragSortView(
+  imageList,
+  space: 5,
+  margin: EdgeInsets.all(20),
+  padding: EdgeInsets.all(0),
+  itemBuilder: (BuildContext context, int index) {},
+  initBuilder: (BuildContext context) {},
+  onDragListener: (MotionEvent event, double itemWidth) {
+    /// 判断拖动到指定位置删除
+    /// return true;
+    if (event.globalY > 600) {
+      return true;
+    }
+    return false;
+  },
+);     
+```
 
 #### 3、获取图片尺寸 [ImageUtil](https://github.com/Sky24n/flustars)
 大图功能必备工具。
@@ -92,10 +120,6 @@ enum DayFormat {
 TimelineUtil.format(timeMillis, locale: Localizations.localeOf(context).languageCode, dayFormat: DayFormat.Common);
 ```
 
-#### 8、版本升级功能（仅供参考） [VersionUtil](https://github.com/Sky24n/FlutterRepos)
-[dio](https://pub.flutter-io.cn/packages/dio) + [install_apk_plugin](https://pub.flutter-io.cn/packages/install_apk_plugin)    
-[VersionUtil](base_library/lib/src/util/version_util.dart) + [UpgradeDialog](base_library/lib/src/ui/dialog/upgrade_dialog.dart)
-
 ### Screenshots
 
 截图无法查看？  
@@ -109,12 +133,14 @@ TimelineUtil.format(timeMillis, locale: Localizations.localeOf(context).language
 |<img src="screenshots/wb_publish.gif" width="220" height="391"/>|<img src="screenshots/wb_content.gif" width="220" height="391"/>|<img src="screenshots/wb_user.gif" width="220" height="391"/>|
 |授权|设置|图片|
 |<img src="screenshots/wb_auth.png" width="220" height="465"/>|<img src="screenshots/setting.png" width="220" height="465"/>|<img src="screenshots/wb_photo.png" width="220" height="465"/>|
+|<img src="screenshots/nine_grid_view1.jpg" width="260" height="513"/>|<img src="screenshots/nine_grid_view2.jpg" width="260" height="513"/>|<img src="screenshots/nine_grid_view3.jpg" width="260" height="513"/>|
+|<img src="screenshots/nine_grid_view4.jpg" width="260" height="513"/>|<img src="screenshots/nine_grid_view5.jpg" width="260" height="513"/>|<img src="screenshots/nine_grid_view6.jpg" width="260" height="513"/>|
+|<img src="screenshots/nine_grid_view7.jpg" width="260" height="513"/>|<img src="screenshots/nine_grid_view8.jpg" width="260" height="513"/>|<img src="screenshots/nine_grid_view8.jpg" width="260" height="513"/>|
 
 ### 关于App
 GitHub &nbsp;&nbsp;： [Fitness](https://github.com/Sky24n/Fitness)  
-Apk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：[v0.0.1](https://github.com/Sky24n/Doc/blob/master/apks/fitness.apk) (arm64-v8a)  
+Apk &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;：[v0.0.2](https://github.com/Sky24n/Doc) (arm64-v8a)  
 百度云盘：[提取码 ttbn](https://pan.baidu.com/s/1HgBaR68oJYe7nnOTJlSg0Q)  
-其他方式：[v0.0.1](https://github.com/Sky24n/Doc)  
 腾讯微云：[点击下载](https://share.weiyun.com/5T2hhs8c)  
 请使用微信或QQ浏览器扫码下载！  
   
@@ -139,5 +165,5 @@ GitHub : [Sky24n](https://github.com/Sky24n)
 #### 3.部分页面没有返回键，如何返回上一个页面？
     可以使用侧滑（右滑）返回，也可以使用手机Back键返回。
 #### 4.探索页面没有回退按钮，如何返回上一个页面？
-    双击探索Tab即可。 
+    长按探索Tab即可。 
 

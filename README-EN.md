@@ -13,11 +13,39 @@ Theme Color
 
 ### Share Content
 
-##### 1、NineGridView（Open source soon）
+#### 1、[NineGridView](https://github.com/flutterchina/nine_grid_view)
 Similar to Weibo news, WeChat circle of friends, WeChat group, DingDing group, support single big picture preview.
+```yaml
+NineGridView(
+  margin: EdgeInsets.all(12),
+  padding: EdgeInsets.all(5),
+  space: 5,
+  type: NineGridType.weChatGp,
+  itemCount: itemCount,
+  itemBuilder: (BuildContext context, int index) {},
+);
+```
 
-#### 2、DragNineGridView（Open source soon）
+#### 2、[DragSortView](https://github.com/flutterchina/nine_grid_view)
 Similar to the Weibo / WeChat publish dynamic NineGridView, it supports pressing the zoom effect, dragging and sorting, and dragging to the specified location to delete.
+```yaml
+DragSortView(
+  imageList,
+  space: 5,
+  margin: EdgeInsets.all(20),
+  padding: EdgeInsets.all(0),
+  itemBuilder: (BuildContext context, int index) {},
+  initBuilder: (BuildContext context) {},
+  onDragListener: (MotionEvent event, double itemWidth) {
+    /// Judge to drag to the specified position to delete
+    /// return true;
+    if (event.globalY > 600) {
+      return true;
+    }
+    return false;
+  },
+);   
+```
 
 #### 3、Get image size [ImageUtil](https://github.com/Sky24n/flustars)
 Large picture function tool class.
@@ -86,10 +114,6 @@ enum DayFormat {
 TimelineUtil.format(timeMillis, locale: Localizations.localeOf(context).languageCode, dayFormat: DayFormat.Common);
 ```
 
-#### 8、Version upgrade (For reference only) [VersionUtil](https://github.com/Sky24n/FlutterRepos)
-[dio](https://pub.flutter-io.cn/packages/dio) + [install_apk_plugin](https://pub.flutter-io.cn/packages/install_apk_plugin)    
-[VersionUtil](base_library/lib/src/util/version_util.dart) + [UpgradeDialog](base_library/lib/src/ui/dialog/upgrade_dialog.dart)
-
 ### Screenshots
 
 |Home|Discover|Me|
@@ -99,7 +123,9 @@ TimelineUtil.format(timeMillis, locale: Localizations.localeOf(context).language
 |<img src="screenshots/wb_publish.gif" width="220" height="391"/>|<img src="screenshots/wb_content.gif" width="220" height="391"/>|<img src="screenshots/wb_user.gif" width="220" height="391"/>|
 |Auth|Setting|Photo|
 |<img src="screenshots/wb_auth.png" width="220" height="465"/>|<img src="screenshots/setting_en.png" width="220" height="465"/>|<img src="screenshots/wb_photo.png" width="220" height="465"/>|
-
+|<img src="screenshots/nine_grid_view1.jpg" width="260" height="513"/>|<img src="screenshots/nine_grid_view2.jpg" width="260" height="513"/>|<img src="screenshots/nine_grid_view3.jpg" width="260" height="513"/>|
+|<img src="screenshots/nine_grid_view4.jpg" width="260" height="513"/>|<img src="screenshots/nine_grid_view5.jpg" width="260" height="513"/>|<img src="screenshots/nine_grid_view6.jpg" width="260" height="513"/>|
+|<img src="screenshots/nine_grid_view7.jpg" width="260" height="513"/>|<img src="screenshots/nine_grid_view8.jpg" width="260" height="513"/>|<img src="screenshots/nine_grid_view8.jpg" width="260" height="513"/>|
 
 ### About App
 GitHub &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;： [Fitness](https://github.com/Sky24n/Fitness)  
